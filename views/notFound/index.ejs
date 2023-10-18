@@ -1,0 +1,25 @@
+<br />
+<h1>Page Not Found...</h1>
+<p>But hey! Here's a quote for you ^_^</p>
+
+<p id="quote">Loading...</p>
+
+<script>
+  async function getRandomQuote() {
+    try {
+      const response = await fetch('https://api.quotable.io/random');
+      const data = await response.json();
+
+      if (data && data.content) {
+        document.getElementById('quote').innerHTML = `<strong>"${data.content}"</strong>`;
+      } else {
+        throw new Error('Could not fetch a quote');
+      }
+    } catch (error) {
+      console.error(error);
+      document.getElementById('quote').textContent = 'Error fetching quote';
+    }
+  }
+
+  getRandomQuote();
+</script>
