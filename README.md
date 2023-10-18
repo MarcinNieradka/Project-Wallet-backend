@@ -1,1 +1,1 @@
-# goit-wallet-grupa-03-backend
+https://pocketbook-basket-clam.cyclic.app/api/info
