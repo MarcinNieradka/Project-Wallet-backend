@@ -1,5 +1,5 @@
 {
-  "name": "goit-wallet-grupa-03-backend",
+  "name": "project-wallet-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KrzysztofRozbicki/goit-wallet-grupa-03-backend.git"
+    "url": "git+https://github.com/MarcinNieradka/Project-Wallet-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KrzysztofRozbicki/goit-wallet-grupa-03-backend/issues"
+    "url": "https://github.com/MarcinNieradka/Project-Wallet-backend/issues"
   },
-  "homepage": "https://github.com/KrzysztofRozbicki/goit-wallet-grupa-03-backend#readme",
+  "homepage": "https://github.com/MarcinNieradka/Project-Wallet-backend#readme",
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
     "bcryptjs": "^2.4.3",
